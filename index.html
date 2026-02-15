@@ -14,7 +14,7 @@
         }
 
         body {
-            background-color: #0b111a;
+            background-color: #000000;
             color: #e2e8f0;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             display: flex;
@@ -27,7 +27,7 @@
         .app-container {
             width: 375px;
             height: 812px;
-            background-color: #121820;
+            background-color: #111111;
             border-radius: 40px;
             overflow: hidden;
             position: relative;
@@ -45,11 +45,11 @@
         }
 
         .card-bg {
-            background-color: #1a222c;
+            background-color: #1c1c1e;
         }
 
         .ai-block-bg {
-            background-color: #121820;
+            background-color: #161616;
         }
 
         .text-muted {
@@ -595,8 +595,8 @@
     <div class="app-container">
 
         <!-- ========== SCREEN 1: FEED ========== -->
-        <div id="screen-feed" class="screen screen-visible flex flex-col" style="background:#121820;">
-            <div class="px-5 pt-12 pb-3 flex justify-between items-center bg-[#121820] z-10">
+        <div id="screen-feed" class="screen screen-visible flex flex-col" style="background:#111111;">
+            <div class="px-5 pt-12 pb-3 flex justify-between items-center bg-[#111111] z-10">
                 <div class="flex items-center gap-3">
                     <div
                         class="w-8 h-8 bg-blue-600 rounded-full flex justify-center items-center shadow-[0_0_15px_rgba(37,99,235,0.4)]">
@@ -625,7 +625,7 @@
                 </div>
             </div>
             <div
-                class="px-4 py-2 flex gap-2.5 overflow-x-auto no-scrollbar border-b border-[#1f2937] bg-[#121820] z-10">
+                class="px-4 py-2 flex gap-2.5 overflow-x-auto no-scrollbar border-b border-[#1f2937] bg-[#111111] z-10">
                 <button
                     class="bg-[#0066FF] text-white px-5 py-1.5 rounded-full text-[13px] font-semibold whitespace-nowrap shadow-[0_2px_8px_rgba(0,102,255,0.3)]">For
                     You</button>
@@ -638,7 +638,7 @@
                     Stocks</button>
             </div>
 
-            <div class="flex-1 overflow-y-auto no-scrollbar bg-[#0f141a] px-3 py-3 space-y-3 pb-24">
+            <div class="flex-1 overflow-y-auto no-scrollbar bg-[#111111] px-3 py-3 space-y-3 pb-24">
 
                 <!-- ===== Card 1: Fed / Bloomberg — 与详情页对应 ===== -->
                 <div class="card-bg rounded-[18px] border border-[#232f3e] shadow-lg cursor-pointer hover:bg-[#1e2630] transition p-3.5"
@@ -651,12 +651,12 @@
                         <span class="ml-auto text-gray-500 text-[16px] leading-none tracking-widest cursor-pointer"
                             onclick="event.stopPropagation()">···</span>
                     </div>
-                    <div class="flex gap-3 mb-2">
+                    <div class="flex items-start gap-3 mb-2">
                         <div class="flex-1 min-w-0">
-                            <h2 class="text-[15px] font-bold leading-snug text-[#f1f5f9] mb-2">美联储暂缓降息：鲍威尔称通胀回落不及预期</h2>
+                            <h2 class="text-[15px] font-bold leading-snug text-[#f1f5f9]">美联储暂缓降息：鲍威尔称通胀回落不及预期</h2>
                         </div>
                         <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=200&auto=format&fit=crop"
-                            class="w-[72px] h-[72px] rounded-xl object-cover flex-shrink-0">
+                            class="w-[56px] h-[56px] rounded-xl object-cover flex-shrink-0">
                     </div>
                     <div class="mb-3 space-y-1.5">
                         <p class="text-[12px] text-gray-400 leading-relaxed">• 鲍威尔强调通胀数据令人失望，过早降息可能引发二次通膨风险</p>
@@ -674,7 +674,7 @@
                             <span class="text-[11px] text-gray-500">｜</span>
                             <span class="text-[11px] text-gray-400">Macro Expert</span>
                         </div>
-                        <div class="flex items-start gap-2 ml-7">
+                        <div class="flex items-start gap-2 ml-0.5">
                             <div class="w-1.5 h-1.5 rounded-full bg-blue-400 flex-shrink-0 mt-1.5"></div>
                             <p class="text-[12px] text-gray-300 leading-snug">流动性收紧信号明确，高估值科技股短期承压。<span
                                     class="font-bold text-[#facc15]">黄金</span>和防御型资产胜率达82%，建议配置货币基金降低波动</p>
@@ -714,13 +714,13 @@
                         <span class="ml-auto text-gray-500 text-[16px] leading-none tracking-widest cursor-pointer"
                             onclick="event.stopPropagation()">···</span>
                     </div>
-                    <div class="flex gap-3 mb-2">
+                    <div class="flex items-start gap-3 mb-2">
                         <div class="flex-1 min-w-0">
-                            <h2 class="text-[15px] font-bold leading-snug text-[#f1f5f9] mb-2">科技股承压：10年期美债收益率突破4.5%
+                            <h2 class="text-[15px] font-bold leading-snug text-[#f1f5f9]">科技股承压：10年期美债收益率突破4.5%
                             </h2>
                         </div>
                         <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=200&auto=format&fit=crop"
-                            class="w-[72px] h-[72px] rounded-xl object-cover flex-shrink-0">
+                            class="w-[56px] h-[56px] rounded-xl object-cover flex-shrink-0">
                     </div>
                     <div class="mb-3 space-y-1.5">
                         <p class="text-[12px] text-gray-400 leading-relaxed">• 英伟达跌超3%，苹果、微软、Meta均下探关键支撑位</p>
@@ -737,7 +737,7 @@
                             <span class="text-[11px] text-gray-500">｜</span>
                             <span class="text-[11px] text-gray-400">Risk Analyst</span>
                         </div>
-                        <div class="flex items-start gap-2 ml-7">
+                        <div class="flex items-start gap-2 ml-0.5">
                             <div class="w-1.5 h-1.5 rounded-full bg-red-400 flex-shrink-0 mt-1.5"></div>
                             <p class="text-[12px] text-gray-300 leading-snug">
                                 标普500估值泡沫在利率上升环境下必然破裂，估值杀正是价值投资者的机会，关注有<span class="font-bold text-white">护城河</span>标的
@@ -778,13 +778,13 @@
                         <span class="ml-auto text-gray-500 text-[16px] leading-none tracking-widest cursor-pointer"
                             onclick="event.stopPropagation()">···</span>
                     </div>
-                    <div class="flex gap-3 mb-2">
+                    <div class="flex items-start gap-3 mb-2">
                         <div class="flex-1 min-w-0">
-                            <h2 class="text-[15px] font-bold leading-snug text-[#f1f5f9] mb-2">美元飙升：亚洲货币承重压，多国央行考虑干预
+                            <h2 class="text-[15px] font-bold leading-snug text-[#f1f5f9]">美元飙升：亚洲货币承重压，多国央行考虑干预
                             </h2>
                         </div>
                         <img src="https://images.unsplash.com/photo-1580519542036-c47de6196ba5?q=80&w=200&auto=format&fit=crop"
-                            class="w-[72px] h-[72px] rounded-xl object-cover flex-shrink-0">
+                            class="w-[56px] h-[56px] rounded-xl object-cover flex-shrink-0">
                     </div>
                     <div class="mb-3 space-y-1.5">
                         <p class="text-[12px] text-gray-400 leading-relaxed">• 日元跌至34年新低155关口，人民币离岸汇率逼迗7.3</p>
@@ -801,7 +801,7 @@
                             <span class="text-[11px] text-gray-500">｜</span>
                             <span class="text-[11px] text-gray-400">FX Analyst</span>
                         </div>
-                        <div class="flex items-start gap-2 ml-7">
+                        <div class="flex items-start gap-2 ml-0.5">
                             <div class="w-1.5 h-1.5 rounded-full bg-blue-300 flex-shrink-0 mt-1.5"></div>
                             <p class="text-[12px] text-gray-300 leading-snug">强势<span
                                     class="font-bold text-white">美元</span>导致亚洲进口成本急剧上升，资本加速外流。关注日本央行是否出手干预</p>
@@ -836,7 +836,7 @@
 
             <!-- Feed Tab Bar -->
             <div
-                class="absolute bottom-0 w-full h-[80px] bg-[#121820]/95 backdrop-blur-md border-t border-[#1f2937] flex justify-between px-2 pt-2.5 pb-5 z-20">
+                class="absolute bottom-0 w-full h-[80px] bg-[#111111]/95 backdrop-blur-md border-t border-[#1f2937] flex justify-between px-2 pt-2.5 pb-5 z-20">
                 <div class="flex-1 flex flex-col items-center gap-1 text-muted"><svg class="w-5 h-5" fill="none"
                         stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
